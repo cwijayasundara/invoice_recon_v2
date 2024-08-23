@@ -1,0 +1,13 @@
+python-dotenv
+langchain_community
+langchain-ollama
+unstructured[all-docs]
+chromadb
+nltk
+langchain
+langchain-experimental
+presidio-analyzer
+presidio-anonymizer
+spacy
+Faker
+langchain-openai==0.1.22
