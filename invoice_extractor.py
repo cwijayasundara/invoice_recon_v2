@@ -1,6 +1,6 @@
 from langchain_core.prompts import ChatPromptTemplate
 from file_loader import get_content
-from typing import Optional, List
+from typing import List
 from langchain_core.pydantic_v1 import BaseModel, Field
 import warnings
 from dotenv import load_dotenv
@@ -10,7 +10,7 @@ from langchain_ollama import ChatOllama
 warnings.filterwarnings('ignore')
 _ = load_dotenv()
 
-invoice_location = "docs/city_of_seattle_wa/Invoices/424216.pdf"
+invoice_location = "docs/city_of_seattle_wa/Invoices/424218.pdf"
 
 invoice_content = get_content(invoice_location)
 
